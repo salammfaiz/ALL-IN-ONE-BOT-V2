@@ -22,7 +22,7 @@
     },
     "NODE_PORT":{
       "description":"lavalink port",
-      "value": "433",
+      "value": "57095",
       "required": true
     },
     "NODE_PASSWORD":{
@@ -32,7 +32,7 @@
     },
     "NODE_SECURE":{
       "description":"lavalink secure (true/false)",
-      "value": "true",
+      "value": "false",
       "required": true
     },
     "PREFIX":{
@@ -42,7 +42,7 @@
      },
     "COlOR":{
       "description": "embed colour code hex",
-      "value": "#2f3136",
+      "value": "#00ff39",
       "required": false
      },
     "LOGS":{
@@ -50,7 +50,7 @@
       "required": true
      },
     "OWNERID":{
-      "description": "870179991462236170",
+      "description": "963354050617815060",
       "required": false
      },
     "TOKEN": {
