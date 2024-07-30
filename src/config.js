@@ -5,7 +5,7 @@ module.exports = {
     clientID: process.env.CLIENT_ID || "1255213301512667146", 
     prefix: process.env.PREFIX || "?", 
     ownerID: process.env.OWNER_ID || "963354050617815060",
-    guildID: process.env.GUILD_ID || "1251227411903942719",
+    guildID: process.env.GUILD_ID || "1264467216053833870",
     SpotifyID: process.env.SPOTIFY_ID || "4b2a3f3c14a041378cae75799597d349",
     SpotifySecret: process.env.SPOTIFY_SECRET || "9222247bb10e4736b1ef6db7222639d1",
     mongourl: process.env.MONGO_URL || "",
