@@ -14,7 +14,7 @@ module.exports = {
     users.forEach((user) => client.userSettings.set(user.Id, user));
     
     // Game
-    let statuses = [`${prefix}help`, 'Invite me'];
+    let statuses = [`${prefix}help | BoultFuego`, 'Fcuk Feelings'];
     setInterval(function() {
       let status = statuses[Math.floor(Math.random() * statuses.length)];
       client.user.setActivity(`${status}`, { type: ActivityType.Watching });
