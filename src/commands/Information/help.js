@@ -4,7 +4,7 @@ const config = require('../../config');
 module.exports = {
     name: "help",
     category: "Information",
-    aliases: ["h"],
+    aliases: ["h", "hlp"],
     description: "",
     args: false,
     usage: "",
@@ -122,12 +122,12 @@ async function pagination(interaction, embeds) {
             new ButtonBuilder()
                 .setLabel("Invite Me")
                 .setStyle(ButtonStyle.Link)
-                .setEmoji("<a:x_dot:1247589958600888332>")
+                
                 .setURL(config.links.invite),
             new ButtonBuilder()
                 .setLabel("Support HQ")
                 .setStyle(ButtonStyle.Link)
-                .setEmoji("<a:x_dot:1247589958600888332>")
+                
                 .setURL(config.links.support),
         ])
     let curPage = 0;
