@@ -23,9 +23,9 @@ module.exports = {
     },
     nodes: [
            {
-            host: process.env.NODE_HOST || "hk.aarubot.xyz",
-            port: parseInt(process.env.NODE_PORT || "57095"),
-            password: process.env.NODE_PASSWORD || "Aaru-the-cutiepie",
+            host: process.env.NODE_HOST || "node.raidenbot.xyz",
+            port: parseInt(process.env.NODE_PORT || "5500"),
+            password: process.env.NODE_PASSWORD || "pwd",
             secure: parseBoolean(process.env.NODE_SECURE || "false"),
             }
            ],
