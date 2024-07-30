@@ -125,7 +125,7 @@ async function pagination(interaction, embeds) {
                 .setEmoji("<a:x_dot:1247589958600888332>")
                 .setURL(config.links.invite),
             new ButtonBuilder()
-                .setLabel("Support Server")
+                .setLabel("Support HQ")
                 .setStyle(ButtonStyle.Link)
                 .setEmoji("<a:x_dot:1247589958600888332>")
                 .setURL(config.links.support),
